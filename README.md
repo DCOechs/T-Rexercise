@@ -20,7 +20,12 @@ data/exercises.json enthält deutsche Schlüssel, Übungs-IDs und Werte:
 
 - id: eindeutige, dauerhafte Kennung, z. B. kniebeuge.
 - name: angezeigter Übungsname.
-- schwerpunkte: z. B. Kraft, Beine, Rücken oder Beweglichkeit.
+- schwerpunkte: Ziele (Kraft, Cardio, Mobiliät, Geschick) und Körperbereiche
+  (Arme, Rücken, Bauch, Beine), jeweils in dieser Reihenfolge.
+  Schultern gehören zu Arme, Nacken zu Rücken und Waden zu Beine.
+  Die Auswahl wird in beiden Dialogen als Ziele und Körperbereiche gruppiert.
+  Alte gespeicherte Begriffe werden beim Lesen übernommen und beim nächsten
+  Trainingsstart unter den neuen Begriffen gespeichert.
 - anforderungen.geraete: benötigte Geräte, z. B. Kurzhanteln, Stuhl oder Yogamatte.
 - auswahlgewicht: Basisgewicht für die Zufallsauswahl.
 - erfassungsfelder: wiederholungen und/oder gewichtKg; leer bedeutet nur Zeit.

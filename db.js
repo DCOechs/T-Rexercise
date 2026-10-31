@@ -28,7 +28,7 @@ const datenMigration = (() => {
   function optionen(werte = {}) {
     const neu = umbenennen(werte, { equipment: "geraete", focuses: "schwerpunkte", count: "anzahl" });
     neu.geraete = (neu.geraete ?? []).map((wert) => begriffe[wert] ?? wert);
-    neu.schwerpunkte = (neu.schwerpunkte ?? []).map((wert) => begriffe[wert] ?? wert);
+    neu.schwerpunkte = vereinheitlicheSchwerpunkte((neu.schwerpunkte ?? []).map((wert) => begriffe[wert] ?? wert));
     delete neu.positions;
     delete neu.space;
     return neu;
@@ -141,7 +141,10 @@ const trainingDb = (() => {
       return {
         verlauf,
         uebungsEinstellungen: werte.uebungsEinstellungen || {},
-        trainingsOptionen: werte.trainingsOptionen || null,
+        trainingsOptionen: werte.trainingsOptionen ? {
+          ...werte.trainingsOptionen,
+          schwerpunkte: vereinheitlicheSchwerpunkte(werte.trainingsOptionen.schwerpunkte),
+        } : null,
       };
     },
     beginSession(record, optionen) {

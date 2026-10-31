@@ -1,5 +1,5 @@
 // Bei Änderungen an App-Dateien, Katalog oder Bildern VERSION erhöhen.
-const VERSION = "1";
+const VERSION = "5";
 const BASIS = new URL(self.registration.scope);
 const PRAEFIX = "trexercise-pwa:" + encodeURIComponent(BASIS.pathname) + ":";
 const CACHE = PRAEFIX + VERSION;

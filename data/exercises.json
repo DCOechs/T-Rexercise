@@ -38,7 +38,7 @@
     "id": "katze-kuh",
     "name": "Katze-Kuh",
     "schwerpunkte": [
-      "Beweglichkeit",
+      "Mobiliät",
       "Rücken"
     ],
     "anforderungen": {
@@ -73,7 +73,7 @@
     "name": "Beckenheben",
     "schwerpunkte": [
       "Kraft",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": [
@@ -91,8 +91,7 @@
     "name": "Wadenheben",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Waden"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -108,8 +107,7 @@
     "name": "Wadenheben mit gebeugten Knien",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Waden"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -125,8 +123,7 @@
     "name": "Wadenheben halten",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Waden"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -140,8 +137,7 @@
     "name": "Ausfallschritte im Wechsel",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -157,8 +153,7 @@
     "name": "Ausfallschritte rückwärts im Wechsel",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -190,9 +185,8 @@
     "name": "Unterarmstütz",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
-      "Bauch",
-      "Schultern"
+      "Arme",
+      "Bauch"
     ],
     "anforderungen": {
       "geraete": [
@@ -208,9 +202,8 @@
     "name": "Unterarmstütz mit verlängertem Hebel",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
-      "Bauch",
-      "Schultern"
+      "Arme",
+      "Bauch"
     ],
     "anforderungen": {
       "geraete": [
@@ -226,9 +219,8 @@
     "name": "Seitstütz links",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
-      "Bauch",
-      "Schultern"
+      "Arme",
+      "Bauch"
     ],
     "anforderungen": {
       "geraete": [
@@ -244,9 +236,8 @@
     "name": "Seitstütz rechts",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
-      "Bauch",
-      "Schultern"
+      "Arme",
+      "Bauch"
     ],
     "anforderungen": {
       "geraete": [
@@ -262,7 +253,6 @@
     "name": "Bauchpressen",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Bauch"
     ],
     "anforderungen": {
@@ -281,7 +271,6 @@
     "name": "Umgekehrtes Bauchpressen",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Bauch"
     ],
     "anforderungen": {
@@ -300,7 +289,6 @@
     "name": "Beinheben in Rückenlage",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Bauch"
     ],
     "anforderungen": {
@@ -319,7 +307,6 @@
     "name": "Käferübung",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Bauch"
     ],
     "anforderungen": {
@@ -338,7 +325,6 @@
     "name": "Radfahren in Rückenlage",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Bauch"
     ],
     "anforderungen": {
@@ -355,7 +341,6 @@
     "name": "Rückenstrecken in Bauchlage",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Rücken"
     ],
     "anforderungen": {
@@ -374,7 +359,6 @@
     "name": "Rückenstrecken halten in Bauchlage",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Rücken"
     ],
     "anforderungen": {
@@ -392,7 +376,7 @@
     "schwerpunkte": [
       "Kraft",
       "Rücken",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": [
@@ -410,9 +394,9 @@
     "name": "Schwimmen in Bauchlage",
     "schwerpunkte": [
       "Kraft",
+      "Arme",
       "Rücken",
-      "Schultern",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": [
@@ -428,8 +412,8 @@
     "name": "Armkreisen in Bauchlage",
     "schwerpunkte": [
       "Kraft",
-      "Rücken",
-      "Schultern"
+      "Arme",
+      "Rücken"
     ],
     "anforderungen": {
       "geraete": [
@@ -447,8 +431,7 @@
     "name": "Seitliche Ausfallschritte im Wechsel",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -464,8 +447,7 @@
     "name": "Kniebeuge mit weitem Stand",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -482,8 +464,7 @@
     "schwerpunkte": [
       "Kraft",
       "Rücken",
-      "Beine",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -499,8 +480,8 @@
     "name": "Knieheben im Stehen im Wechsel",
     "schwerpunkte": [
       "Kraft",
-      "Beine",
-      "Rumpf"
+      "Bauch",
+      "Beine"
     ],
     "anforderungen": {
       "geraete": []
@@ -515,8 +496,8 @@
     "id": "armkreisen-im-stehen",
     "name": "Armkreisen im Stehen",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Schultern"
+      "Mobiliät",
+      "Arme"
     ],
     "anforderungen": {
       "geraete": []
@@ -529,8 +510,8 @@
     "id": "schulterkreisen",
     "name": "Schulterkreisen",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Schultern"
+      "Mobiliät",
+      "Arme"
     ],
     "anforderungen": {
       "geraete": []
@@ -543,8 +524,7 @@
     "id": "rumpfdrehung-im-stehen",
     "name": "Rumpfdrehung im Stehen",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Rumpf",
+      "Mobiliät",
       "Rücken"
     ],
     "anforderungen": {
@@ -558,7 +538,7 @@
     "id": "einbeinstand-links",
     "name": "Einbeinstand auf dem linken Bein",
     "schwerpunkte": [
-      "Gleichgewicht",
+      "Geschick",
       "Beine"
     ],
     "anforderungen": {
@@ -572,7 +552,7 @@
     "id": "einbeinstand-rechts",
     "name": "Einbeinstand auf dem rechten Bein",
     "schwerpunkte": [
-      "Gleichgewicht",
+      "Geschick",
       "Beine"
     ],
     "anforderungen": {
@@ -586,8 +566,8 @@
     "id": "seitneigen-im-stehen",
     "name": "Seitneigen des Oberkörpers im Stehen",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Rumpf"
+      "Mobiliät",
+      "Bauch"
     ],
     "anforderungen": {
       "geraete": []
@@ -601,10 +581,7 @@
     "name": "Liegestütz",
     "schwerpunkte": [
       "Kraft",
-      "Brust",
-      "Arme",
-      "Schultern",
-      "Rumpf"
+      "Arme"
     ],
     "anforderungen": {
       "geraete": [
@@ -622,10 +599,7 @@
     "name": "Liegestütz auf den Knien",
     "schwerpunkte": [
       "Kraft",
-      "Brust",
-      "Arme",
-      "Schultern",
-      "Rumpf"
+      "Arme"
     ],
     "anforderungen": {
       "geraete": [
@@ -643,9 +617,8 @@
     "name": "Diagonales Arm- und Beinstrecken im Vierfüßlerstand",
     "schwerpunkte": [
       "Kraft",
-      "Rumpf",
       "Rücken",
-      "Gesäß"
+      "Beine"
     ],
     "anforderungen": {
       "geraete": [
@@ -663,7 +636,6 @@
     "name": "Hüftstrecken im Vierfüßlerstand, linkes Bein",
     "schwerpunkte": [
       "Kraft",
-      "Gesäß",
       "Beine"
     ],
     "anforderungen": {
@@ -682,7 +654,6 @@
     "name": "Hüftstrecken im Vierfüßlerstand, rechtes Bein",
     "schwerpunkte": [
       "Kraft",
-      "Gesäß",
       "Beine"
     ],
     "anforderungen": {
@@ -701,7 +672,6 @@
     "name": "Beinheben in Seitenlage, linkes Bein",
     "schwerpunkte": [
       "Kraft",
-      "Gesäß",
       "Beine"
     ],
     "anforderungen": {
@@ -720,7 +690,6 @@
     "name": "Beinheben in Seitenlage, rechtes Bein",
     "schwerpunkte": [
       "Kraft",
-      "Gesäß",
       "Beine"
     ],
     "anforderungen": {
@@ -738,9 +707,9 @@
     "id": "kindhaltung",
     "name": "Kindhaltung",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Rücken",
-      "Schultern"
+      "Mobiliät",
+      "Arme",
+      "Rücken"
     ],
     "anforderungen": {
       "geraete": [
@@ -755,9 +724,9 @@
     "id": "brustwirbelsaeulenrotation-vierfuesslerstand-links",
     "name": "Brustwirbelsäulendrehung im Vierfüßlerstand nach links",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Rücken",
-      "Schultern"
+      "Mobiliät",
+      "Arme",
+      "Rücken"
     ],
     "anforderungen": {
       "geraete": [
@@ -772,9 +741,9 @@
     "id": "brustwirbelsaeulenrotation-vierfuesslerstand-rechts",
     "name": "Brustwirbelsäulendrehung im Vierfüßlerstand nach rechts",
     "schwerpunkte": [
-      "Beweglichkeit",
-      "Rücken",
-      "Schultern"
+      "Mobiliät",
+      "Arme",
+      "Rücken"
     ],
     "anforderungen": {
       "geraete": [

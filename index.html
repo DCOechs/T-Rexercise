@@ -76,7 +76,7 @@
       </fieldset>
       <details id="preferences">
         <summary>Schwerpunkte (optional)</summary>
-        <fieldset id="schwerpunkte"><legend>Schwerpunkte wählen</legend></fieldset>
+        <div id="schwerpunkte"></div>
       </details>
     </form>
   </dialog>
@@ -108,10 +108,10 @@
     <form id="stats-filter-form">
       <h2 id="stats-filter-title">Übungen filtern</h2>
       <fieldset id="stats-geraete"><legend>Geräte</legend></fieldset>
-      <fieldset id="stats-schwerpunkte"><legend>Schwerpunkte</legend></fieldset>
+      <div id="stats-schwerpunkte"></div>
       <p id="stats-filter-preview" role="status"></p>
-      <button type="button" id="stats-filter-reset" class="filter-reset">Zurücksetzen</button>
-      <div class="actions">
+      <div class="actions filter-actions">
+        <button type="button" id="stats-filter-reset">Zurücksetzen</button>
         <button type="submit" class="primary">Anwenden</button>
         <button type="button" id="stats-filter-cancel">Abbrechen</button>
       </div>

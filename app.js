@@ -43,17 +43,25 @@ function populateOptionTiles(container, group, values, selected) {
   container.append(grid);
 }
 
-function populateOptions() {
-  const unique = (values) => [...new Set(values)];
-  const optionGroups = {
-    geraete: unique(exercises.flatMap((e) => e.anforderungen.geraete)),
-    schwerpunkte: unique(exercises.flatMap((e) => e.schwerpunkte)),
-  };
-  statsFilter = { geraete: [], schwerpunkte: [] };
-  Object.entries(optionGroups).forEach(([group, values]) => {
-    populateOptionTiles(byId(group), group, values, userData.trainingsOptionen?.[group] ?? []);
-    populateOptionTiles(byId("stats-" + group), group, values, statsFilter[group]);
+function populateSchwerpunkte(container, selected) {
+  schwerpunktGruppen.forEach(({ name, werte }) => {
+    const gruppe = document.createElement("fieldset");
+    gruppe.className = "schwerpunkt-gruppe";
+    const titel = document.createElement("legend");
+    titel.textContent = name;
+    gruppe.append(titel);
+    populateOptionTiles(gruppe, "schwerpunkte", werte, selected);
+    container.append(gruppe);
   });
+}
+
+function populateOptions() {
+  const geraete = [...new Set(exercises.flatMap((e) => e.anforderungen.geraete))];
+  statsFilter = { geraete: [], schwerpunkte: [] };
+  populateOptionTiles(byId("geraete"), "geraete", geraete, userData.trainingsOptionen?.geraete ?? []);
+  populateOptionTiles(byId("stats-geraete"), "geraete", geraete, []);
+  populateSchwerpunkte(byId("schwerpunkte"), userData.trainingsOptionen?.schwerpunkte ?? []);
+  populateSchwerpunkte(byId("stats-schwerpunkte"), []);
   const savedCount = userData.trainingsOptionen?.anzahl ?? sessionDefaults.exerciseCount;
   const selectedCount = Number.isInteger(savedCount) && savedCount >= 1 && savedCount <= 100
     ? savedCount : sessionDefaults.exerciseCount;

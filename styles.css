@@ -103,6 +103,9 @@ dialog::backdrop { background: #102c2466; backdrop-filter: blur(5px); }
 fieldset { min-width: 0; margin: 0 0 1.5rem; border: 0; padding: 0; }
 legend { padding: 0; margin-bottom: .65rem; font-weight: 650; }
 .option-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; }
+.schwerpunkt-gruppe { margin-bottom: 1rem; }
+.schwerpunkt-gruppe + .schwerpunkt-gruppe { padding-top: .75rem; }
+.schwerpunkt-gruppe:last-child { margin-bottom: 0; }
 .option-tile, .anzahl-option { position: relative; cursor: pointer; }
 .option-tile input, .anzahl-option input {
   position: absolute;
@@ -254,7 +257,17 @@ li small { display: block; }
 #session-tracking { max-width: 24rem; margin: 0 auto 1rem; }
 .stats-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .stats-toolbar h3 { margin: 0; }
-.filter-reset { margin-bottom: 1rem; }
+.actions.filter-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .35rem;
+}
+.actions.filter-actions button {
+  min-width: 0;
+  padding: .65rem .2rem;
+  font-size: clamp(.7rem, 3.3vw, .875rem);
+  white-space: nowrap;
+}
 #stats-filter h2 { margin-top: 0; }
 .pwa-update {
   display: flex;

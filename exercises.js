@@ -1,3 +1,21 @@
+const schwerpunktGruppen = [
+  { name: "Ziele", werte: ["Kraft", "Cardio", "Mobiliät", "Geschick"] },
+  { name: "Körperbereiche", werte: ["Arme", "Rücken", "Bauch", "Beine"] },
+];
+const erlaubteSchwerpunkte = schwerpunktGruppen.flatMap((gruppe) => gruppe.werte);
+
+// Alte gespeicherte Trainingsauswahlen bleiben unter den neuen Begriffen nutzbar.
+function vereinheitlicheSchwerpunkte(werte = []) {
+  const zuordnung = {
+    Beweglichkeit: ["Mobiliät"], Mobilität: ["Mobiliät"],
+    Gleichgewicht: ["Geschick"], Koordination: ["Geschick"],
+    Schultern: ["Arme"], Brust: ["Arme"], Nacken: ["Rücken"],
+    Gesäß: ["Beine"], Po: ["Beine"], Waden: ["Beine"], Rumpf: ["Bauch", "Rücken"],
+  };
+  const normalisiert = werte.flatMap((wert) => zuordnung[wert] ?? [wert]);
+  return erlaubteSchwerpunkte.filter((wert) => normalisiert.includes(wert));
+}
+
 // Der Übungskatalog wird getrennt von den persönlichen Daten geladen.
 async function loadExercises() {
   const response = await fetch("./data/exercises.json");
@@ -12,6 +30,7 @@ async function loadExercises() {
         (exercise.bild != null && (typeof exercise.bild !== "string" ||
           !/^\.\/assets\/icons\/exercises\/[a-z0-9-]+\.svg$/.test(exercise.bild))) ||
         !strings(exercise.schwerpunkte) || !strings(exercise.erfassungsfelder) ||
+        exercise.schwerpunkte.some((wert) => !erlaubteSchwerpunkte.includes(wert)) ||
         exercise.erfassungsfelder.some((field) => !["wiederholungen", "gewichtKg"].includes(field)) ||
         !exercise.anforderungen || !strings(exercise.anforderungen.geraete) ||
         !Number.isFinite(exercise.auswahlgewicht) || exercise.auswahlgewicht < 0) {
