@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Kniebeuge</title>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity=".22"><circle cx="108" cy="34" r="11"/><path d="M105 48 99 104 110 143 108 181M99 104 82 143 80 181M104 63 135 91 157 91"/></g>
+<circle cx="130" cy="65" r="11"/><path d="m121 79-31 42 46 23-17 37m-29-60 30 30-21 30m16-94 23 20h33M119 181h20m-40 0h-16"/>
+<g stroke="#5e947a" stroke-width="3"><path d="M59 79v48m-8-9 8 9 8-9"/></g>
+  </g>
+</svg>

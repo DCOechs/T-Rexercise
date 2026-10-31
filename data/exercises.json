@@ -1,0 +1,788 @@
+[
+  {
+    "id": "kniebeuge",
+    "name": "Kniebeuge",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": "./assets/icons/exercises/bodyweight-squat.svg"
+  },
+  {
+    "id": "kurzhantel-rudern",
+    "name": "Vorgebeugtes Rudern mit Kurzhanteln",
+    "schwerpunkte": [
+      "Kraft",
+      "Rücken"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Kurzhanteln"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen",
+      "gewichtKg"
+    ],
+    "bild": "./assets/icons/exercises/dumbbell-row.svg"
+  },
+  {
+    "id": "katze-kuh",
+    "name": "Katze-Kuh",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rücken"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": "./assets/icons/exercises/cat-cow.svg"
+  },
+  {
+    "id": "kniestrecken-im-sitzen",
+    "name": "Kniestrecken im Sitzen",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Stuhl"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": "./assets/icons/exercises/seated-knee-extension.svg"
+  },
+  {
+    "id": "beckenheben",
+    "name": "Beckenheben",
+    "schwerpunkte": [
+      "Kraft",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": "./assets/icons/exercises/glute-bridge.svg"
+  },
+  {
+    "id": "wadenheben",
+    "name": "Wadenheben",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Waden"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "wadenheben-gebeugte-knie",
+    "name": "Wadenheben mit gebeugten Knien",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Waden"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "wadenheben-isometrisch",
+    "name": "Wadenheben halten",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Waden"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "ausfallschritte",
+    "name": "Ausfallschritte im Wechsel",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "ausfallschritte-rueckwaerts",
+    "name": "Ausfallschritte rückwärts im Wechsel",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "wandsitzen",
+    "name": "Wandsitzen",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Wand"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "unterarmstuetz",
+    "name": "Unterarmstütz",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "unterarmstuetz-langer-hebel",
+    "name": "Unterarmstütz mit verlängertem Hebel",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "seitstuetz-links",
+    "name": "Seitstütz links",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "seitstuetz-rechts",
+    "name": "Seitstütz rechts",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "bauchpressen",
+    "name": "Bauchpressen",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "bauchpressen-umgekehrt",
+    "name": "Umgekehrtes Bauchpressen",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "beinheben-rueckenlage",
+    "name": "Beinheben in Rückenlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "kaeferuebung",
+    "name": "Käferübung",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "radfahren-rueckenlage",
+    "name": "Radfahren in Rückenlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Bauch"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "rueckenstrecken-bauchlage",
+    "name": "Rückenstrecken in Bauchlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Rücken"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "rueckenstrecken-halten-bauchlage",
+    "name": "Rückenstrecken halten in Bauchlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Rücken"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "diagonales-arm-beinheben-bauchlage",
+    "name": "Diagonales Arm- und Beinheben in Bauchlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rücken",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "schwimmen-bauchlage",
+    "name": "Schwimmen in Bauchlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rücken",
+      "Schultern",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "armkreisen-bauchlage",
+    "name": "Armkreisen in Bauchlage",
+    "schwerpunkte": [
+      "Kraft",
+      "Rücken",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "seitliche-ausfallschritte",
+    "name": "Seitliche Ausfallschritte im Wechsel",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "weite-kniebeuge",
+    "name": "Kniebeuge mit weitem Stand",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "hueftbeuge-im-stehen",
+    "name": "Hüftbeuge im Stehen",
+    "schwerpunkte": [
+      "Kraft",
+      "Rücken",
+      "Beine",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "knieheben-im-stehen",
+    "name": "Knieheben im Stehen im Wechsel",
+    "schwerpunkte": [
+      "Kraft",
+      "Beine",
+      "Rumpf"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "armkreisen-im-stehen",
+    "name": "Armkreisen im Stehen",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "schulterkreisen",
+    "name": "Schulterkreisen",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "rumpfdrehung-im-stehen",
+    "name": "Rumpfdrehung im Stehen",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rumpf",
+      "Rücken"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "einbeinstand-links",
+    "name": "Einbeinstand auf dem linken Bein",
+    "schwerpunkte": [
+      "Gleichgewicht",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "einbeinstand-rechts",
+    "name": "Einbeinstand auf dem rechten Bein",
+    "schwerpunkte": [
+      "Gleichgewicht",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "seitneigen-im-stehen",
+    "name": "Seitneigen des Oberkörpers im Stehen",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rumpf"
+    ],
+    "anforderungen": {
+      "geraete": []
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "liegestuetz",
+    "name": "Liegestütz",
+    "schwerpunkte": [
+      "Kraft",
+      "Brust",
+      "Arme",
+      "Schultern",
+      "Rumpf"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "liegestuetz-auf-knien",
+    "name": "Liegestütz auf den Knien",
+    "schwerpunkte": [
+      "Kraft",
+      "Brust",
+      "Arme",
+      "Schultern",
+      "Rumpf"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "diagonales-strecken-vierfuesslerstand",
+    "name": "Diagonales Arm- und Beinstrecken im Vierfüßlerstand",
+    "schwerpunkte": [
+      "Kraft",
+      "Rumpf",
+      "Rücken",
+      "Gesäß"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "hueftstrecken-vierfuesslerstand-links",
+    "name": "Hüftstrecken im Vierfüßlerstand, linkes Bein",
+    "schwerpunkte": [
+      "Kraft",
+      "Gesäß",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "hueftstrecken-vierfuesslerstand-rechts",
+    "name": "Hüftstrecken im Vierfüßlerstand, rechtes Bein",
+    "schwerpunkte": [
+      "Kraft",
+      "Gesäß",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "beinheben-seitenlage-links",
+    "name": "Beinheben in Seitenlage, linkes Bein",
+    "schwerpunkte": [
+      "Kraft",
+      "Gesäß",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "beinheben-seitenlage-rechts",
+    "name": "Beinheben in Seitenlage, rechtes Bein",
+    "schwerpunkte": [
+      "Kraft",
+      "Gesäß",
+      "Beine"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [
+      "wiederholungen"
+    ],
+    "bild": null
+  },
+  {
+    "id": "kindhaltung",
+    "name": "Kindhaltung",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rücken",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "brustwirbelsaeulenrotation-vierfuesslerstand-links",
+    "name": "Brustwirbelsäulendrehung im Vierfüßlerstand nach links",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rücken",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  },
+  {
+    "id": "brustwirbelsaeulenrotation-vierfuesslerstand-rechts",
+    "name": "Brustwirbelsäulendrehung im Vierfüßlerstand nach rechts",
+    "schwerpunkte": [
+      "Beweglichkeit",
+      "Rücken",
+      "Schultern"
+    ],
+    "anforderungen": {
+      "geraete": [
+        "Yogamatte"
+      ]
+    },
+    "auswahlgewicht": 1,
+    "erfassungsfelder": [],
+    "bild": null
+  }
+]

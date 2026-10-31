@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153e35">
+  <meta name="description" content="Dein persönliches Training mit Übungen, Pausen und lokaler Statistik.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TRexercise">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/app-icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <title>T/Rex/ercise</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./exercises.js" defer></script>
+  <script src="./db.js" defer></script>
+  <script src="./audio.js" defer></script>
+  <script src="./app.js" defer></script>
+  <script src="./pwa.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1><img class="brand-logo" src="./assets/logo-v1.png" alt="T/Rex/ercise" fetchpriority="high"></h1>
+    <nav id="training-navigation" aria-label="Hauptnavigation">
+      <button type="button" data-view="training" aria-current="page">Training</button>
+      <button type="button" data-view="stats">Statistik</button>
+    </nav>
+  </header>
+  <main>
+    <p id="app-status" role="status">Wird geladen…</p>
+    <p id="pwa-status" role="status" hidden></p>
+    <div id="pwa-update" class="pwa-update" role="status" hidden>
+      <span>Eine neue Version ist verfügbar.</span>
+      <button type="button" id="pwa-update-button">Aktualisieren</button>
+    </div>
+    <section id="training" aria-label="Training">
+      <p id="training-notice" role="status" hidden></p>
+      <div id="entry"><button type="button" id="start" class="primary" disabled>Start</button></div>
+      <div id="session" hidden>
+        <p id="progress" role="status"></p>
+        <p id="screen-status" role="status" hidden></p>
+        <h2 id="current-exercise"></h2>
+        <img id="current-bild" alt="" width="220" height="220" hidden>
+        <p id="timer" aria-label="Verbleibende Sekunden"></p>
+        <fieldset id="session-tracking" hidden>
+          <legend>Tracking (optional)</legend>
+          <div id="session-metric-inputs" class="metric-inputs"></div>
+        </fieldset>
+        <button type="button" id="stop">Training beenden</button>
+      </div>
+    </section>
+    <section id="stats" aria-labelledby="stats-title" hidden>
+      <h2 id="stats-title">Statistik &amp; Einstellungen</h2>
+      <p id="verlauf-summary">Noch keine Übungen abgeschlossen.</p>
+      <div class="stats-toolbar">
+        <h3>Übungen</h3>
+        <button type="button" id="stats-filter-open" aria-haspopup="dialog" disabled>Filter</button>
+      </div>
+      <p id="stats-filter-summary" class="editor-note" role="status"></p>
+      <p id="stats-empty" hidden>Keine passenden Übungen. Passe den Filter an oder setze ihn zurück.</p>
+      <ul id="exercise-list"></ul>
+    </section>
+  </main>
+  <dialog id="setup" aria-label="Training vorbereiten">
+    <form id="setup-form">
+      <div class="actions">
+        <button type="submit" id="begin" class="primary" autofocus>Training starten</button>
+        <button type="button" id="cancel">Abbrechen</button>
+      </div>
+      <p id="availability" role="status"></p>
+      <fieldset id="geraete"><legend>Verfügbare Geräte</legend></fieldset>
+      <fieldset class="anzahl-field">
+        <legend id="anzahl-title">Verschiedene Übungen</legend>
+        <p id="anzahl-hint">Wischen oder eine Zahl antippen</p>
+        <div id="anzahl-picker" class="anzahl-picker" aria-labelledby="anzahl-title" aria-describedby="anzahl-hint"></div>
+      </fieldset>
+      <details id="preferences">
+        <summary>Schwerpunkte (optional)</summary>
+        <fieldset id="schwerpunkte"><legend>Schwerpunkte wählen</legend></fieldset>
+      </details>
+    </form>
+  </dialog>
+  <dialog id="exercise-editor" aria-labelledby="exercise-editor-title" aria-describedby="exercise-editor-help">
+    <form id="exercise-editor-form">
+      <div class="editor-heading">
+        <img id="exercise-editor-bild" alt="" width="72" height="72">
+        <h2 id="exercise-editor-title"></h2>
+      </div>
+      <p id="exercise-editor-help">Wie oft möchtest du diese Übung trainieren?</p>
+      <fieldset id="preference-fields">
+        <legend>Auswahlhäufigkeit</legend>
+        <div id="preference-optionen" class="option-grid"></div>
+      </fieldset>
+      <fieldset id="default-tracking" hidden>
+        <legend>Standardwerte fürs Tracking</legend>
+        <div id="default-metric-inputs" class="metric-inputs"></div>
+        <p class="editor-note">Optional. Im Training vorbelegt und änderbar. Leer lassen, um nur die Zeit zu erfassen.</p>
+      </fieldset>
+      <p class="editor-note">Forcierte Übungen werden zuerst zufällig gezogen. Geräteanforderungen gelten weiterhin. Änderungen gelten ab dem nächsten Training.</p>
+      <p id="exercise-editor-status" role="status"></p>
+      <div class="actions">
+        <button type="submit" id="exercise-editor-save" class="primary">Speichern</button>
+        <button type="button" id="exercise-editor-cancel">Abbrechen</button>
+      </div>
+    </form>
+  </dialog>
+  <dialog id="stats-filter" aria-labelledby="stats-filter-title">
+    <form id="stats-filter-form">
+      <h2 id="stats-filter-title">Übungen filtern</h2>
+      <fieldset id="stats-geraete"><legend>Geräte</legend></fieldset>
+      <fieldset id="stats-schwerpunkte"><legend>Schwerpunkte</legend></fieldset>
+      <p id="stats-filter-preview" role="status"></p>
+      <button type="button" id="stats-filter-reset" class="filter-reset">Zurücksetzen</button>
+      <div class="actions">
+        <button type="submit" class="primary">Anwenden</button>
+        <button type="button" id="stats-filter-cancel">Abbrechen</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

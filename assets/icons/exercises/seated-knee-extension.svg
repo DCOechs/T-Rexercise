@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Kniestrecken im Sitzen</title>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#a7bfae" stroke-width="4"><path d="M51 88v38h58m-54 0v55m49-55v55"/></g>
+    <circle cx="83" cy="49" r="11"/><path d="M83 64v51h42l51 4m-49-4 46-6m3 10 10-2M83 84l16 17h20"/>
+    <g opacity=".22"><path d="M125 115v62h20"/></g>
+    <g stroke="#5e947a" stroke-width="3"><path d="M151 159q20-11 22-28m-9 7 9-7 5 11"/></g>
+  </g>
+</svg>
