@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Seitneigen des Oberkörpers im Stehen</title>
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M1 1 9 5 1 9" fill="none" stroke="#5e947a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 187h176" stroke="#a7bfae" stroke-width="3"/><g opacity=".22"><circle cx="110" cy="33" r="10"/><path d="M110 48v65"/></g><circle cx="136" cy="40" r="10"/><path d="m129 54-18 58-25 70H71m40-70 25 70h16M113 68l-14-28 25-19m17 57 23 37"/><path d="M157 24q23 12 24 36" stroke="#5e947a" stroke-width="3" marker-end="url(#pfeil)"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Schwimmen in Bauchlage</title>
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M1 1 9 5 1 9" fill="none" stroke="#5e947a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 187h176" stroke="#a7bfae" stroke-width="3"/><circle cx="60" cy="140" r="10"/><path d="m69 147 13 10 49 9 60-27 11 2M82 157l-47-32m47 32-48 18m97-9 60 13"/><g opacity=".22"><path d="M35 144l47 13m49 9 59-11"/></g><path d="M41 105q-19 15-2 30" stroke="#5e947a" stroke-width="3" marker-end="url(#pfeil)"/><path d="M186 112q21 17 5 35" stroke="#5e947a" stroke-width="3" marker-end="url(#pfeil)"/>
+  </g>
+</svg>

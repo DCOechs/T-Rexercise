@@ -100,7 +100,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/wadenheben.svg"
   },
   {
     "id": "wadenheben-gebeugte-knie",
@@ -116,7 +116,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/wadenheben-gebeugte-knie.svg"
   },
   {
     "id": "wadenheben-isometrisch",
@@ -130,7 +130,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/wadenheben-isometrisch.svg"
   },
   {
     "id": "ausfallschritte",
@@ -146,7 +146,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/ausfallschritte.svg"
   },
   {
     "id": "ausfallschritte-rueckwaerts",
@@ -162,7 +162,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/ausfallschritte-rueckwaerts.svg"
   },
   {
     "id": "wandsitzen",
@@ -178,7 +178,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/wandsitzen.svg"
   },
   {
     "id": "unterarmstuetz",
@@ -195,7 +195,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/unterarmstuetz.svg"
   },
   {
     "id": "unterarmstuetz-langer-hebel",
@@ -212,7 +212,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/unterarmstuetz-langer-hebel.svg"
   },
   {
     "id": "seitstuetz-links",
@@ -229,7 +229,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/seitstuetz-links.svg"
   },
   {
     "id": "seitstuetz-rechts",
@@ -246,7 +246,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/seitstuetz-rechts.svg"
   },
   {
     "id": "bauchpressen",
@@ -264,7 +264,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/bauchpressen.svg"
   },
   {
     "id": "bauchpressen-umgekehrt",
@@ -282,7 +282,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/bauchpressen-umgekehrt.svg"
   },
   {
     "id": "beinheben-rueckenlage",
@@ -300,7 +300,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/beinheben-rueckenlage.svg"
   },
   {
     "id": "kaeferuebung",
@@ -318,7 +318,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/kaeferuebung.svg"
   },
   {
     "id": "radfahren-rueckenlage",
@@ -334,7 +334,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/radfahren-rueckenlage.svg"
   },
   {
     "id": "rueckenstrecken-bauchlage",
@@ -352,7 +352,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/rueckenstrecken-bauchlage.svg"
   },
   {
     "id": "rueckenstrecken-halten-bauchlage",
@@ -368,7 +368,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/rueckenstrecken-halten-bauchlage.svg"
   },
   {
     "id": "diagonales-arm-beinheben-bauchlage",
@@ -387,7 +387,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/diagonales-arm-beinheben-bauchlage.svg"
   },
   {
     "id": "schwimmen-bauchlage",
@@ -405,7 +405,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/schwimmen-bauchlage.svg"
   },
   {
     "id": "armkreisen-bauchlage",
@@ -424,7 +424,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/armkreisen-bauchlage.svg"
   },
   {
     "id": "seitliche-ausfallschritte",
@@ -440,7 +440,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/seitliche-ausfallschritte.svg"
   },
   {
     "id": "weite-kniebeuge",
@@ -456,7 +456,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/weite-kniebeuge.svg"
   },
   {
     "id": "hueftbeuge-im-stehen",
@@ -473,7 +473,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/hueftbeuge-im-stehen.svg"
   },
   {
     "id": "knieheben-im-stehen",
@@ -490,7 +490,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/knieheben-im-stehen.svg"
   },
   {
     "id": "armkreisen-im-stehen",
@@ -504,7 +504,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/armkreisen-im-stehen.svg"
   },
   {
     "id": "schulterkreisen",
@@ -518,7 +518,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/schulterkreisen.svg"
   },
   {
     "id": "rumpfdrehung-im-stehen",
@@ -532,7 +532,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/rumpfdrehung-im-stehen.svg"
   },
   {
     "id": "einbeinstand-links",
@@ -546,7 +546,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/einbeinstand-links.svg"
   },
   {
     "id": "einbeinstand-rechts",
@@ -560,7 +560,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/einbeinstand-rechts.svg"
   },
   {
     "id": "seitneigen-im-stehen",
@@ -574,7 +574,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/seitneigen-im-stehen.svg"
   },
   {
     "id": "liegestuetz",
@@ -592,7 +592,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/liegestuetz.svg"
   },
   {
     "id": "liegestuetz-auf-knien",
@@ -610,7 +610,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/liegestuetz-auf-knien.svg"
   },
   {
     "id": "diagonales-strecken-vierfuesslerstand",
@@ -629,7 +629,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/diagonales-strecken-vierfuesslerstand.svg"
   },
   {
     "id": "hueftstrecken-vierfuesslerstand-links",
@@ -647,7 +647,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/hueftstrecken-vierfuesslerstand-links.svg"
   },
   {
     "id": "hueftstrecken-vierfuesslerstand-rechts",
@@ -665,7 +665,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/hueftstrecken-vierfuesslerstand-rechts.svg"
   },
   {
     "id": "beinheben-seitenlage-links",
@@ -683,7 +683,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/beinheben-seitenlage-links.svg"
   },
   {
     "id": "beinheben-seitenlage-rechts",
@@ -701,7 +701,7 @@
     "erfassungsfelder": [
       "wiederholungen"
     ],
-    "bild": null
+    "bild": "./assets/icons/exercises/beinheben-seitenlage-rechts.svg"
   },
   {
     "id": "kindhaltung",
@@ -718,7 +718,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/kindhaltung.svg"
   },
   {
     "id": "brustwirbelsaeulenrotation-vierfuesslerstand-links",
@@ -735,7 +735,7 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/brustwirbelsaeulenrotation-vierfuesslerstand-links.svg"
   },
   {
     "id": "brustwirbelsaeulenrotation-vierfuesslerstand-rechts",
@@ -752,6 +752,6 @@
     },
     "auswahlgewicht": 1,
     "erfassungsfelder": [],
-    "bild": null
+    "bild": "./assets/icons/exercises/brustwirbelsaeulenrotation-vierfuesslerstand-rechts.svg"
   }
 ]

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Beinheben in Seitenlage, rechtes Bein</title>
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M1 1 9 5 1 9" fill="none" stroke="#5e947a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 187h176" stroke="#a7bfae" stroke-width="3"/><g transform="translate(220 0) scale(-1 1)"><g opacity=".22"><path d="M111 172l80-9h13"/></g><circle cx="41" cy="149" r="10"/><path d="m51 154 16 6 44 12 80 6h13M67 160l16-22 38 32M111 172l70-48 16 2"/><path d="M171 151v-23" stroke="#5e947a" stroke-width="3" marker-end="url(#pfeil)"/></g><text x="180" y="38" fill="#5e947a" stroke="none" font-family="system-ui, sans-serif" font-size="20" font-weight="700">R</text>
+  </g>
+</svg>

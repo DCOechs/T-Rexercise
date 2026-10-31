@@ -35,8 +35,11 @@ Der Katalog enthält aktuell 45 Übungen im Stehen oder auf der Yogamatte,
 darunter Wadenheben, Ausfallschritte, Wandsitzen, Liegestütze, Gleichgewichtsübungen,
 Stütz-, Bauch- und Rückenübungen sowie Beweglichkeitsübungen.
 Die jüngste Erweiterung ergänzt zehn Übungen im Stehen und zehn auf der Matte.
-Wandsitzen setzt eine Wand voraus. Neue Übungen haben zunächst bild: null;
-die Oberfläche blendet ihre Bilder aus, ohne eine Bilddatei anzufordern.
+Wandsitzen setzt eine Wand voraus. Alle 45 Übungen besitzen SVG-Piktogramme.
+Die Icons verwenden dunkelgrüne Linien, dezente Bewegungspfeile und bei Bedarf
+helle Ausgangspositionen. Links-/Rechtsvarianten sind mit L bzw. R gekennzeichnet.
+Neue Übungen können weiterhin vorläufig bild: null verwenden; die Oberfläche
+blendet ihre Bilder dann aus, ohne eine Bilddatei anzufordern.
 
 Geräte und Schwerpunkte werden direkt angezeigt. Eine zusätzliche Übersetzungstabelle
 ist nicht mehr nötig. Schreibweisen einheitlich halten, damit Filter und Auswahl passen.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Unterarmstütz mit verlängertem Hebel</title>
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M1 1 9 5 1 9" fill="none" stroke="#5e947a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g stroke="#153e35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 187h176" stroke="#a7bfae" stroke-width="3"/><circle cx="60" cy="121" r="10"/><path d="m70 129 13 8 105 39 10 9M83 137l-28 46H28"/><g opacity=".22"><path d="M83 137v46H77"/></g><path d="M103 204H57" stroke="#5e947a" stroke-width="3" marker-end="url(#pfeil)"/>
+  </g>
+</svg>
